@@ -27,7 +27,7 @@ export default function SinglePost() {
     fetchSinglePost();
   }, [postId]);
 
- const PF = 'https://island-hoppers.herokuapp.com/post/images/';
+ const PF = 'https://island-hoppers.herokuapp.com/images/';
 
 
   // function to handle the deletion of a post

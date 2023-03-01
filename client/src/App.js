@@ -15,7 +15,7 @@ import { Context } from "./context/Context";
 //function to manage the authentication of sign in
 function App() {
   const { user, isAdmin } = useContext(Context);
-  console.log("admin", isAdmin);
+ 
   let adminUser;
   if (user === null) {
     adminUser = false;

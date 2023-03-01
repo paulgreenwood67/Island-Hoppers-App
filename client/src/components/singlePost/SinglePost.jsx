@@ -27,7 +27,7 @@ export default function SinglePost() {
     fetchSinglePost();
   }, [postId]);
 
- const PF = '../images/'
+ const PF = 'post/images/'
 
   // function to handle the deletion of a post
   

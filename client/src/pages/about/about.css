@@ -1,0 +1,63 @@
+.about {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.104) 50%,
+      rgba(255, 255, 255, 0.123) 67%,
+      rgba(255, 255, 255, 0.14) 100%
+    ),
+    url("https://images.greeka.com/resized/user_images/AliBoyle/800/phpHIsSmC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+.aboutWrapper {
+  width: 50%;
+  height:fit-content;
+  margin: 70px 80px;
+  background: rgba(255, 255, 255, 0.732);
+  padding:30px;
+  border-radius:20px
+ 
+}
+.aboutTitle {
+  font-family: "Nunito";
+  font-size: 38px;
+  font-weight: 550;
+  margin-bottom: 20px;
+  color:  rgba(19, 107, 221, 0.644);
+}
+h4 {
+  font-size: 22px;
+  line-height: 30px;
+  color: rgb(107, 106, 106);
+  font-family: "Nunito";
+}
+
+p {
+  line-height: 28px;
+  font-size: 17px;
+  color: rgb(107, 106, 106);
+  font-family: "Nunito";
+}
+p span {
+  font-weight: bold;
+  color:rgb(107, 106, 106);
+  font-family: "Nunito";
+}
+h2 {
+  margin: 20px 0;
+  color:  rgba(19, 107, 221, 0.644);
+}
+button {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  color:rgb(47, 47, 47);
+  background-color: rgb(237, 184, 38);
+  cursor: pointer;
+}
+ 

@@ -1,0 +1,35 @@
+.notFound{
+    margin-top: 200px;
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(19, 107, 221, 0.755);
+    font-size: 15px;
+   
+}
+
+.chill{
+    
+    
+ 
+    display: flex;
+    
+    justify-content: center;
+    color: grey;
+    font-size: 15px;
+
+}
+
+@media screen and (max-width: 480px) {
+    .notFound {
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .chill {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+}

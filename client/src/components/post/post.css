@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.post {
+  margin-top: 30px;
+  width: 40%;
+  min-width: 300px;
+  margin-right: 10px;
+  margin-left: 55px;
+  height: 500px;
+  border-radius: 20px;
+  padding-bottom:20px;
+  box-shadow: 0 4px 30px rgba(8, 8, 8, 0.076);
+}
+
+.post:hover{
+  box-shadow: 0 4px 30px rgba(8, 8, 8, 0.191);
+  transform: scale(1.01)
+
+}
+.postWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postImg {
+  width: 100%;
+  min-width: 100px;
+  height: 270px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.postInfo {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.postCategory {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  color:rgb(19, 106, 221);
+  margin-bottom: 5px;
+  justify-content: space-evenly;
+  font-family: "Quicksand";
+}
+.postTitle {
+  font-size: 19px;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(22, 22, 22);
+  margin-bottom: 10px;
+  font-family: "Quicksand";
+  
+}
+.creation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.postDate {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-family: "Lora", serif;
+}
+
+
+.postDescription {
+  text-align: justify;
+  font-family: "Quicksand";
+  line-height: 1.5rem;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  
+}
+
+@media screen and (max-width: 480px) {
+  .post {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .postWrapper {
+    padding: 0;
+    margin: 0;
+  }
+  .postImg{
+    width: 90%;
+    height: 200px
+  }
+  .postInfo{
+    width: 90%;
+  }
+}

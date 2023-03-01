@@ -1,0 +1,17 @@
+
+.headerImg {
+  width: 100%;
+  height: 400px;
+  background: url("https://www.mailtravel.co.uk/images/greek-islands-hero-1");
+  background-repeat: no-repeat;
+
+ 
+}
+
+@media screen and (max-width: 480px) {
+
+  .headerImg{
+    background-position: bottom center;
+  }
+}
+

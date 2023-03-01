@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 // function to manage the creation of a post 'thumbnail' for the home page
 export default function Post({ post }) {
-  const PF = 'http://localhost:5000/images/'
+  const PF = './images/'
   return (
     <div className="post">
       <Link to={`/post/${post._id}`} className="link">

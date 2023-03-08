@@ -12,13 +12,15 @@ export default function Topbar() {
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   };
- return (
+  return (
     <div className="navbar">
       <div className="navbarWrapper">
         <div className="navbarLeft">
-          <h1><span className="island hide1"><span className="material-symbols-outlined">sunny</span>ISLAND</span><span className="hoppers hide1">HOPPERS</span></h1>
-          <h1><span className="hide2"><span className="island"><span className="material-symbols-outlined">sunny</span>I</span><span className="hoppers">H</span></span></h1>
-          <h1><span className="hide3 material-symbols-outlined"><span className="island">I</span><span className="hoppers">H</span></span></h1>
+          <h1><span className="island hide1"><span className="material-symbols-outlined">sunny</span>iSLAND</span><span className="hoppers hide1">HOPPERS</span></h1>
+        <div>
+        <h1 className="logo">iH</h1>
+        </div>
+        
         </div>
 
         <div className="navHide1 navbarCenter" > 
@@ -30,7 +32,7 @@ export default function Topbar() {
             <span className="navbarCenterItem">ABOUT</span>
           </Link>
           <Link to="/write" className="link">
-            <span className="navbarCenterItem">CREATE A HOP</span>
+            <span className="navbarCenterItem">WRITE</span>
           </Link>
           <span className="navbarCenterItemLogOut" onClick={handleLogout}>
             {user && "LOGOUT"}
@@ -73,3 +75,4 @@ export default function Topbar() {
     </div>
   );
 }
+

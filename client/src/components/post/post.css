@@ -122,16 +122,16 @@
   .post {
     width: 100%;
     height:fit-content;
-    
+    margin: 10px;
     display:flex;
     justify-content: center;
     
   }
 
-  @media screen and (max-width:365px) {
+  @media screen and (max-width:377px) {
 
     .post{
-     
+      margin: 20px;
       width: 90%;
     }
     .postWrapper {
@@ -139,6 +139,19 @@
       padding: 10px;
      
     }
+}
+
+@media screen and (max-width:285px) {
+
+  .post{
+    margin: 15px;
+    width: 90%;
+  }
+  .postWrapper {
+    
+    padding: 10px;
+   
+  }
 }
 }
 

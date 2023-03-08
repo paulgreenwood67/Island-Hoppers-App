@@ -6,16 +6,5 @@
 }
 
 
-@media screen and (max-width: 367px) {
 
-  .header{
-    margin-bottom:60px;
-  }
-
-  .headerImg {
-    
-    display: none;
-  }
-
-}
 

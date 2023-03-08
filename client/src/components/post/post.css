@@ -122,11 +122,12 @@
   .post {
     width: 100%;
     height:fit-content;
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
     display:flex;
     justify-content: center;
     
   }
+
 
 
 

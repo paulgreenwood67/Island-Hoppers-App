@@ -32,10 +32,13 @@
   color: rgb(19, 106, 221);
   margin-top: 20px;
 }
+
+
 .loginForm {
   display: flex;
   flex-direction: column;
   width: 80%;
+  
 }
 .loginLabel {
   font-size: 18px;
@@ -66,25 +69,41 @@
   cursor: not-allowed;
 }
 .loginRegisterBtn {
-  margin: 0 0 0 30px;
+
   padding: 11px;
   background-color:  rgb(159, 200, 99);
   color:white;
   font-size: 18px;
   border: none;
-  border-radius: 10px;
+  border-radius: 5px;
   cursor: pointer;
-}
-.btns {
-  align-self: flex-start;
+ 
 }
 
-@media screen and (max-width: 480px) {
-  .loginWrapper{
-    margin-left:50px
+.linkBtns{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    text-decoration: none;
   }
-  .loginRegisterBtn{
-    position: absolute;
-  right: 10px
-  }
-}
+  
+
+
+
+  @media screen and (max-width: 330px) {
+    .loginWrapper  {
+      margin-top: 90px;
+      min-width: auto;
+      max-width: auto;
+    }
+    
+    .loginRegisterBtn {
+      margin: 0 0 20px 0px;
+      font-size: 10pt;
+    }
+    
+    }

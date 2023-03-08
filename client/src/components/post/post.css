@@ -120,7 +120,7 @@
 
 @media screen and (max-width: 480px) {
   .post {
-    width: 100%;
+    width: 99%;
     height:fit-content;
     margin: 20px 10px 10px 0px;
     display:flex;

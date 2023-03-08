@@ -122,14 +122,11 @@
   .post {
     width: 100%;
     height:fit-content;
-    margin: 20px 10px 10px 10px;
+    margin: 20px 10px 10px 5px;
     display:flex;
     justify-content: center;
     
   }
-
-
-
 
 @media screen and (max-width:285px) {
 

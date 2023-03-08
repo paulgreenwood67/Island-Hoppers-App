@@ -4,7 +4,7 @@
   width: 100%;
   height: 90px;
   background-color: #fff;
-  position: sticky;
+  position:sticky;
   top: 0;
   z-index: 99;
   display: flex;
@@ -14,7 +14,7 @@
 
 .navbarWrapper {
   width: 100%;
-  margin: 10px 1px;
+  margin-top: 10px;
   display: flex;
   align-items: left;
   justify-content: space-between;
@@ -31,8 +31,7 @@
 }
 .island{
   font-family: "Nunito";
-  font-weight: 100;
-  
+  font-weight: 100; 
   color:  rgb(19, 106, 221);
  
 }
@@ -40,9 +39,23 @@
 .hoppers{
   font-family: "Nunito";
   font-weight:800;
- 
   color: rgb(225, 155, 58);
 }
+
+.hide2{
+  display: none;
+}
+
+.hide3{
+  display: none;
+}
+
+.navHide2{
+  display:none;
+  
+ 
+}
+
 
 .navbarLeft {
   display: flex;
@@ -95,15 +108,112 @@
   margin-right: 15px;
 }
 
-@media screen and (max-width:480px) {
-  .navbarLeft{
-    display: none;
+@media screen and (max-width:895px) {
+
+  .hide1{
+    display:none;
   }
+
+  .hide2{
+   display:block
+  }
+
+  .island{
+    font-weight: 500; 
+  }
+
+}
+
+@media screen and (max-width:623px) {
+
+  .hide2{
+    display:none
+  }
+
+  .hide3{
+    display:block
+  }
+
+
+}
+
+@media screen and (max-width:600px) {
+
+  .navHide1{
+    display:none;
+  }
+
+  .navHide2{
+    display:inline-flex;
+  }
+
+}
+
+@media screen and (max-width:480px) {
+
+  .hoppers {
+   
+    margin-right: 10px;
+   
+  }
+ 
   .navbarCenterItem{
-    font-size: 13px;
+    
+    font-size: 12px;
+    margin: 0px 15px 0px 0px;
+  }
+  .navbarCenterItemLogOut{
+    
+    font-size: 12px;
+    margin: 0px 15px 0px 0px;
   }
   .navbarImg{
     width: 28px;
     height: 28px;
+  }
+}
+
+
+@media screen and (max-width:365px) {
+
+  .navbar{
+    height: 60px;
+    position:fixed;
+    
+  }
+  .island{
+    font-size:15pt;
+  }
+  
+  .hoppers{
+    font-size:15pt;
+    margin-right: 10px;
+  }
+  .navbarCenterItem{
+    
+    font-size: 10px;
+    margin: 0px 12px 0px 0px;
+  }
+  .navbarCenterItemLogOut{
+    
+    font-size: 10px;
+    margin: 0px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 0pt;
+    margin-top: 5px;
+   
+  }
+  .navbarCenter {
+  
+    margin: 0px 10px 0px 0px;
+    
+  }
+ 
+  .navbarWrapper {
+   
+    margin-left: 15px;
+    
   }
 }

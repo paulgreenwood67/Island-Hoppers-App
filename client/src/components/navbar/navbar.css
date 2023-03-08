@@ -188,6 +188,7 @@
   
   .hoppers{
     font-size:12pt;
+    
   }
   .navbarCenterItem{
     
@@ -242,5 +243,37 @@ h1{
   
     margin-left: 15px;
     margin-right: 10px;
+  }
+
+  .navbarCenterItem{
+    font-size: 14px;
+    margin: 0px 8px 0px 0px;
+    
+  }
+  .navbarCenterItemLogOut{
+    font-size: 14px;
+    margin: 0px 15px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .navbarCenterItem{
+    font-size: 12px;
+  }
+  .navbarCenterItemLogOut{
+    font-size: 12px;
+    
+  }
+}
+
+@media screen and (max-width: 312px) {
+
+  .navbarCenterItem{
+    font-size: 10px;
+  }
+  .navbarCenterItemLogOut{
+    font-size: 10px;
+    
   }
 }

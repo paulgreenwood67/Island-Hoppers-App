@@ -5,7 +5,6 @@
   width: 40%;
   height:fit-content;
   min-width: 300px;
-  margin-right: 10px;
   margin-left: 55px;
   height: 500px;
   border-radius: 20px;
@@ -122,11 +121,9 @@
   .post {
     width: 100%;
     height:fit-content;
-    margin: 20px 10px 10px 8px;
-    display:flex;
-    justify-content: center;
-    
+    margin-left: 10px;
   }
+
 
 @media screen and (max-width:285px) {
 

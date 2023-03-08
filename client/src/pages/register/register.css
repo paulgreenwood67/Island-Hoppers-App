@@ -17,7 +17,6 @@
   min-width: 300px;
   max-width: 400px;
   height:fit-content;
-  
   background-color: #fff;
   margin: auto;
   border-radius: 10px;
@@ -35,6 +34,7 @@
   display: flex;
   flex-direction: column;
   width: 80%;
+  height: fit-content;
 }
 .registerLabel {
   font-size: 18px;
@@ -76,9 +76,17 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width:480px) {
-  .registerWrapper{
-    height: 45%;
-    margin-left: 50px;
-  }
+
+@media screen and (max-width: 330px) {
+.registerWrapper {
+  margin-top: 90px;
+  min-width: auto;
+  max-width: auto;
+}
+
+.registerLoginBtn {
+  margin: 0 0 20px 0px;
+  font-size: 10pt;
+}
+
 }

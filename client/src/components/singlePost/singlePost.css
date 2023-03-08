@@ -130,6 +130,11 @@
 }
 
 @media screen and (max-width:480px) {
+  
+  .singlePost {
+    margin-right: 20px;
+  }
+  
   .singlePostTitleInfo{
     flex-direction: column;
   }

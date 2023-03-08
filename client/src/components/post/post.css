@@ -120,9 +120,9 @@
 
 @media screen and (max-width: 480px) {
   .post {
-    width: 99%;
+    width: 100%;
     height:fit-content;
-    margin: 20px 10px 10px 0px;
+    margin: 20px 10px 10px 8px;
     display:flex;
     justify-content: center;
     

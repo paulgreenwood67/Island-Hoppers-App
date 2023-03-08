@@ -118,7 +118,7 @@
   }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 480px) {
   .post {
     width: 100%;
     height:fit-content;
@@ -128,18 +128,7 @@
     
   }
 
-  @media screen and (max-width:377px) {
 
-    .post{
-      margin: 20px;
-      width: 90%;
-    }
-    .postWrapper {
-      
-      padding: 10px;
-     
-    }
-}
 
 @media screen and (max-width:285px) {
 

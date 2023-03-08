@@ -14,6 +14,7 @@
   justify-content: left;
 }
 .aboutWrapper {
+  
   width: 50%;
   height:fit-content;
   margin: 70px 80px;
@@ -60,4 +61,111 @@ button {
   background-color: rgb(237, 184, 38);
   cursor: pointer;
 }
+
+@media screen and (max-width:686px) {
+
+  .aboutTitle{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (max-width:1065px) {
+  .aboutTitle{
+    font-size: 30px;
+  }
+
+
+}
+
+@media screen and (max-width:866px) {
+  .aboutTitle{
+    font-size: 25px;
+  }
+
+
+}
  
+ 
+@media screen and (max-width:742px) {
+
+  .aboutTitle{
+    font-size: 22px;
+  }
+
+  h4{
+    font-size: 17px;
+
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+}
+ 
+@media screen and (max-width:659px) {
+.aboutWrapper {
+  
+  width: 90%;
+  height:fit-content;
+  margin: 60px 40px;
+  background: rgba(255, 255, 255, 0.732);
+  padding:30px;
+  border-radius:20px
+ 
+}
+}
+
+@media screen and (max-width: 380px) {
+
+  h2{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 365px) {
+
+
+
+    .aboutWrapper {
+      
+      width: 90%;
+      height:fit-content;
+      margin: 100px 20px;
+      background: rgba(255, 255, 255, 0.732);
+      padding:30px;
+      border-radius:20px
+     
+    }
+
+}
+
+@media screen and (max-width: 365px) {
+
+
+
+  p{
+    line-height: 17pt;
+  }
+  h4{
+    display:none
+
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+
+
+  .aboutTitle{
+    display:none
+  }
+
+}

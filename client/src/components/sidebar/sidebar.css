@@ -70,14 +70,33 @@
  
 }
 
+
+
+@media screen and (max-width:950px) {
+.sidebarCategoryList {
+  
+  display: block;
+  line-height: 16pt;
+}
+}
+
 @media screen and (max-width:480px) {
+
+  .sidebarCategoryList {
+    
+    display: flex;
+    line-height: 12pt;
+    margin-left:10px
+  }
+
   .sidebar{
     flex:1;
+    justify-items: center;
+    margin-left: 10%;
+    margin-right: auto;
   }
-  .sidebarImg{
-    margin-left:0
-  }
- .sidebarItem{
+
+  .sidebarItem{
     margin-left:20px;
 
   }

@@ -69,20 +69,15 @@
   cursor: not-allowed;
 }
 .loginRegisterBtn {
-
-  padding: 11px;
   background-color:  rgb(159, 200, 99);
   color:white;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
- 
 }
 
 .linkBtns{
-  
+
     display: flex;
+    background-color:  rgb(159, 200, 99);
+    color:white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -102,8 +97,6 @@
     }
     
     .loginRegisterBtn {
-      margin: 0 0 20px 0px;
-      font-size: 10pt;
+     font-size: 10pt;
     }
-    
     }

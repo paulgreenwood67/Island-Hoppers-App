@@ -72,27 +72,55 @@
 
 
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1071px) {
 .sidebarCategoryList {
   
   display: block;
-  line-height: 16pt;
+  line-height: 20pt;
+  text-align: center;
+  font-size: 12pt;
 }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:1060px) {
+  .sidebarCategoryList {
+  
+    display: flex;
+    line-height: 20pt;
+    text-align: left;
+    font-size: 12pt;
+  }
+
+}
+
+@media screen and (max-width:800px) {
+  .sidebarCategoryList {
+  
+    display: block;
+    line-height: 20pt;
+    text-align: left;
+    font-size: 12pt;
+    text-align: center;
+  }
+
+}
+
+
+
+@media screen and (max-width:518px) {
 
   .sidebarCategoryList {
     
     display: flex;
     line-height: 12pt;
-    margin-left:10px
+    margin-left:10px;
+    text-align: left
   }
 
   .sidebar{
     flex:1;
     justify-items: center;
-    margin-left: 10%;
+ 
     margin-right: auto;
   }
 

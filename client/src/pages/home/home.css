@@ -217,7 +217,7 @@ h2 {
 
 @media screen and (max-width:876px) {
   .aboutTitle{
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
   }
 
@@ -251,11 +251,7 @@ h2 {
 
 }
 
-@media screen and (max-width:918px) {
-  .aboutTitle{
-    font-size: 30px;
-  
-  }
+
 
 }
 @media screen and (max-width:754px) {

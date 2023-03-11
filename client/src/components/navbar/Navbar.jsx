@@ -28,9 +28,10 @@ export default function Topbar() {
           <Link to="/" className="link">
             <span className="navbarCenterItem">HOME</span>
           </Link>
-          <Link to="/about" className="link">
-            <span className="navbarCenterItem">ABOUT</span>
+          <Link to="/blog" className="link">
+            <span className="navbarCenterItem">HOPS</span>
           </Link>
+         
           <Link to="/write" className="link">
             <span className="navbarCenterItem">WRITE</span>
           </Link>
@@ -75,4 +76,3 @@ export default function Topbar() {
     </div>
   );
 }
-

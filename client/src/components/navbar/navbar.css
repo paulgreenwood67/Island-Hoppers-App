@@ -117,12 +117,12 @@
 @media screen and (max-width:827px) {
 
   .navbarCenterItem{
-    font-size: 12px;
+    font-size: 16px;
     margin: 0px 12px 0px 0px;
     
   }
   .navbarCenterItemLogOut{
-    font-size: 12px;
+    font-size: 16px;
    
   }
 
@@ -139,7 +139,7 @@
  
 }
 
-@media screen and (max-width:688px) {
+@media screen and (max-width:735px) {
 
   .island{
     font-size:16pt;
@@ -160,7 +160,7 @@
 }
 }
 
-@media screen and (max-width:553px) {
+@media screen and (max-width:615px) {
 
   .material-symbols-outlined {
     display: none;
@@ -180,7 +180,7 @@
 }
 }
 
-@media screen and (max-width:525px) {
+@media screen and (max-width:530px) {
 
   .island{
     font-size:12pt;

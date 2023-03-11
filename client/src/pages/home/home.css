@@ -214,12 +214,16 @@ h2 {
 
 }
 
-
-@media screen and (max-width:876px) {
+@media screen and (max-width:950px) {
   .aboutTitle{
     font-size: 25px;
     margin-bottom: 10px;
   }
+}
+
+
+@media screen and (max-width:876px) {
+ 
 
   .btn{
     padding: 8px;

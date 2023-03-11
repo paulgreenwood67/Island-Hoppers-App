@@ -10,9 +10,493 @@
     justify-content: left;
 }
 
-@media screen and (max-width:480px) {
+.welcome{
+    
+    display:inline;
+
+}
+
+h2 {
+  margin: 30px 0;
+  color:  rgba(19, 107, 221, 0.644);
+}
+
+
+.aboutTitle {
+  
+  font-family: "Nunito";
+  font-size: 38px;
+  font-weight: 550;
+  
+  margin-bottom: 20px;
+  color:  rgba(19, 107, 221, 0.644);
+}
+
+
+.homePost {
+    margin-top: 30px;
+    width: 50%;
+    height:auto;
+    margin-left: 40px;
+
+    border-radius: 20px;
+    padding-bottom:20px;
+   
+  }
+  .homePostPicture {
+    display: block;
+    margin-top: 30px;
+    width: 20%;
+    margin-left: 1px;
+    margin-right: 45px;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .homePostColumns {
+    margin-top: 15px;
+    width: 100%;
+    height:auto;
+    margin-left: 20px;
+   
+    padding-right:20px;
+    padding-left:20px;
+   
+  }
+  .homePostColumns:first-child {
+  border-right:1px solid rgba(19, 107, 221, 0.644); ;
+  }
+  .homePostColumns h2{
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+
+  .welcomeImgOne{
+   width: 100%;
+    height:auto;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-bottom:20px;
+   
+  }
+  .welcomeImgTwo{
+    display: none;
+   }
+
+
+  p {
+    line-height: 25px;
+    
+    color: rgb(107, 106, 106);
+    font-family: "Nunito";
+    
+  }
+  p span {
+    font-weight: bold;
+    color:rgb(107, 106, 106);
+    font-family: "Nunito";
+    
+  }
+
+  .writeHop{
+    color: white;
+    display:inline-flex;
+    background:rgba(19, 107, 221, 0.644);
+    border-radius:10px;
+    padding:3px;
+    margin: 20px 0px 20px 0px
+
+  }
+
+  .writeHop h2{
+    color:white;
+    margin:18px 10px 10px 10px ;
+  
+  }
+
+  .btn{
+    margin:10px;
+    padding: 10px;
+    border:none;
+    font-size: 18px;
+    border-radius: 5px;
+    color:rgba(19, 107, 221, 0.644);
+    background-color:white;
+    cursor: pointer;
+  }
+  
+   
+
+  .columns{
+    margin-top:10px;
+    width: 90%;
+    display: inline-flex;
+    padding: 10px 10px  30px  10px  ;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(8, 8, 8, 0.141);
+    
+  }
+
+  @media screen and (max-width:1125px) {
+    .aboutTitle{
+      font-size: 35px;
+    }
+  
+  
+  }
+
+ 
+@media screen and (max-width:1060px) {
+
+  .homePostColumns {
+    margin-top: 15px;
+    width: 100%;
+    height:auto;
+    margin-left: 0px;
+   
+    padding-right:20px;
+    padding-left:0px;
+  }
+
+  .columns{
+    margin-top:10px;
+    width: 90%;
+    display: block;
+    padding: 10px 10px  0px  0px  ;
+    border-radius: 10px;
+    box-shadow:none;
+    
+  }
+
+  .homePostColumns:first-child {
+    border-right:none
+    }
+  
+
+  .welcomeImgOne{
+    display: none;
+   }
+  .welcomeImgTwo{
+    display: flex;
+    width: 90%;
+     height:auto;
+     border-radius: 10px;
+
+     justify-content: center;
+     margin-top:12px;
+     margin-bottom:30px
+   }
+
+   .homePostPicture {
+    display:none
+   }
+
+  .homePost {
+    margin-top: 30px;
+    width: 60%;
+    height:auto;
+    margin-left: 40px;
+    margin-right: 40px;
+ 
+    border-radius: 20px;
+    padding-bottom:20px;
+
+  }
+
+  
+    .homePostColumns p{
+      margin-top: 0px;
+      margin-bottom: 30px;
+    }
+
+}
+
+
+@media screen and (max-width:876px) {
+  .aboutTitle{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .btn{
+    padding: 8px;
+    font-size: 16px;
+   
+  }
+  .writeHop h2{
+    color:white;
+    margin:18px 10px 10px 10px ;
+    font-size: 18px;
+  
+  }
+  .columns{
+    margin-top:10px;
+    width: 100%;
+    padding: 10px 10px  20px  0px  ;
+  }
+  .homePostColumns {
+    margin-top: 15px;
+    width: 100%;
+    height:auto;
+    margin-left: px;
+   
+    padding-right:20px;
+    padding-left:0px;
+   
+  }
+
+
+}
+@media screen and (max-width:754px) {
+
+  .aboutTitle{
+    font-size: 25px;
+  
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+  p{
+    font-size: 15px;
+  }
+  h2{
+  font-size: 16px;
+}
+.btn{
+  padding: 8px;
+  font-size: 14px;
+ 
+}
+.writeHop h2{
+  color:white;
+  margin:14px 10px 10px 10px ;
+  font-size: 16px;
+
+}
+
+  
+}
+
+
+@media screen and (max-width:686px) {
+  p{
+    font-size: 15px;
+  }
+
+  h2{
+    font-size: 16px;
+  }
+  button {
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+   
+  }
+ 
+}
+
+@media screen and (max-width:659px) {
+  .aboutWrapper {
+    
+    width: 90%;
+    height:fit-content;
+    margin: 60px 40px;
+    background: rgba(255, 255, 255, 0.732);
+    padding:30px;
+    border-radius:20px
+   
+  }
+}
+
+@media screen and (max-width:610px) {
+  .aboutTitle{
+    font-size: 20px;
+  }
+
+
+}
+
+
+@media screen and (max-width:588px) {
+
+  .btn{
+    padding: 8px;
+    font-size: 12px;
+   
+  }
+  .writeHop h2{
+    color:white;
+    margin:14px 10px 10px 10px ;
+    font-size: 14px;
+  
+  }
+  
+}
+
+@media screen and (max-width:525px) {
+
+
+  .aboutTitle{
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+}
+
+
+
+@media screen and (max-width:518px) {
     .home{
         flex-direction: column;
         margin-left: 20px;
     }
+
+    .aboutTitle{
+      font-size: 20px;
+    }
+
+    .homePost {
+      margin-top: 30px;
+      width: 90%;
+      height:auto;
+      margin-left: 10px;
+      border-radius: 20px;
+      padding-bottom:20px;
+
+}
+
+    .homePostColumns {
+      margin-top: 0px;
+      width: 100%;
+      height:auto;
+      margin-left:none;
+      padding-right:none;
+      padding-left:none;
+      
+ 
+}
+
+    .welcomeImgTwo{
+      width: 100%
+ }
+    .columns h2{
+      font-size: 15pt;
+}
+    .columns {
+      margin-bottom: 0px;
+      padding-bottom:0px;
+}
+}
+
+@media screen and (max-width: 413px) {
+
+  .aboutTitle{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 383px) {
+
+    .aboutWrapper {
+      
+      width: 90%;
+      height:fit-content;
+      margin: 50px 20px;
+      background: rgba(255, 255, 255, 0.732);
+      padding:30px;
+      border-radius:20px
+     
+    }
+}
+
+@media screen and (max-width: 365px) {
+
+  .aboutTitle{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  p{
+    line-height: 17pt;
+  }
+  h4{
+    font-size:13pt;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+  
+}
+
+@media screen and (max-width: 348px) {
+
+  .home{
+   margin: 0px 0px 10px 10px;
+  }
+
+  .aboutTitle{
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+
+  p{
+    line-height: 16pt;
+  }
+  h4{
+    font-size:11pt;
+    line-height: 16pt;
+  }
+
+  h2{
+    font-size: 12px;
+  }
+
+  .btn{
+    padding: 3px;
+    font-size: 10px;
+    border-radius:5px;
+   
+  }
+  .writeHop h2{
+    color:white;
+    margin:10px 5px 5px 5px ;
+    font-size: 10px;
+    
+  
+  }
+  
+}
+
+  
+
+
+@media screen and (max-width: 290px) {
+
+  .aboutWrapper {
+      
+   
+    margin: 30px 20px;
+   
+  }
+  .aboutTitle{
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  p{
+    line-height: 16pt;
+  }
+  h4{
+    font-size:11pt;
+    line-height: 15pt;
+  }
+
+  h2{
+    font-size: 12px;
+  }
+  
 }

@@ -37,7 +37,7 @@ export default function Home() {
         </h1>Island Hoppers</span> is a blogging platform which provides you
           the opportunity to post reviews about the amazing islands you have visited in Greece.
           We call our blogs <span> 'hops'</span> and if you join us then you will become a <span>'hopper'</span>.
-          So, hop onboard and tell us about the your adventures around the beautiful islands of Greece.
+          So, hop onboard and tell us about your adventures around the beautiful islands of Greece.
           <div >
           <span className = "writeHop">
             

@@ -7,10 +7,6 @@ import Posts from "../../components/posts/Posts";
 import Sidebar from "../../components/sidebar/Sidebar";
 
 
-
-//function for the home page 
-// with the useEffect function to load the island names from mongoDB on start up 
-//along with the header component for the main image and the side bar component
 export default function Home() {
   const [posts, setPosts] = useState([]);
   const { search } = useLocation();

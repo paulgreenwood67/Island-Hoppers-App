@@ -12,16 +12,17 @@ export default function Topbar() {
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
   };
-  return (
+ return (
     <div className="navbar">
       <div className="navbarWrapper">
-        <div className="navbarLeft">
+        <Link  to="/"  className="navbarLeft">
           <h1><span className="island hide1"><span className="material-symbols-outlined">sunny</span>iSLAND</span><span className="hoppers hide1">HOPPERS</span></h1>
         <div>
         <h1 className="logo">iH</h1>
         </div>
         
-        </div>
+        </Link>
+
 
         <div className="navHide1 navbarCenter" > 
         <div className="navbarCenter">

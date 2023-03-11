@@ -32,7 +32,7 @@ export default function Sidebar() {
               <Link
                 to={`/blog?category=${cat.name}`}
                 className="link sidebarCategoryListItem"
-                key={cat.id}
+                key={cat._id}
               >
                 <li>{cat.name}</li>
                

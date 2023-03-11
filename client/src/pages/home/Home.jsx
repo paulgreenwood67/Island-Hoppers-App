@@ -31,13 +31,15 @@ export default function Home() {
      
         
       
-        <p>
-          <span> <h1 className="aboutTitle">
+       
+         <h1 className="aboutTitle">
          Welcome to <span className="aboutTitle">iSLAND HOPPERS</span>.
-        </h1>Island Hoppers</span> is a blogging platform which provides you
-          the opportunity to post reviews about the amazing islands you have visited in Greece.
-          We call our blogs <span> 'hops'</span> and if you join us then you will become a <span>'hopper'</span>.
-          So, hop onboard and tell us about your adventures around the beautiful islands of Greece.
+        </h1>
+        
+        <p>Island Hoppers is a blogging platform that allows you to share your reviews of the incredible 
+          islands you have explored in Greece. Our blogs, called <b>'hops,' </b>provide a wonderful opportunity to document 
+          your adventures, and by joining us, you become a valued member of our community of <b>'hoppers.'</b><br></br><br></br>
+          So, why not hop aboard and share your experiences of the breathtaking Greek islands with us? We can't wait to hear all about it!</p>
           <div >
           <span className = "writeHop">
             
@@ -64,9 +66,6 @@ export default function Home() {
       
         </div>
 
-
-
-        </p>
           </div>
           <div className="homePostPicture">
         <img src={"https://www.tripsavvy.com/thmb/oiCD50g4KEb9Ft2zQqwdl3JJfrU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/navagio-bay--zakynthos--greece---shipwreck-beach-1061326158-58458295528941059a81d843388f56d2.jpg"} className="welcomeImgOne" alt="My Image" />
@@ -75,8 +74,7 @@ export default function Home() {
         <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs8AkKCcG7DUx09KCpsuUJHbQKeL5NDrdzHA&usqp=CAU"} className="welcomeImgOne" alt="My Image" />
         </div>
 
-       
-   
+
         <Sidebar />
         
       </div>
@@ -84,3 +82,4 @@ export default function Home() {
     </>
   );
 }
+

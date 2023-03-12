@@ -1,0 +1,26 @@
+
+.headerImg {
+  width:100%;
+  height: auto;
+}
+
+  .hide2{
+
+    display:none;
+  }
+
+@media screen and (max-width: 479px) {
+
+  .hide1{
+
+    display:none;
+  }
+
+  .hide2{
+
+    display:block;
+  }
+
+  }
+
+

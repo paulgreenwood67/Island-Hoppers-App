@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "./blog.css";
-import Header from "../../components/header/Header";
+import Headerhop from "../../components/headerhop/Headerhop";
 import Posts from "../../components/posts/Posts";
 import Sidebar from "../../components/sidebar/Sidebar";
 
@@ -20,7 +20,7 @@ export default function Home() {
   }, [search]);
   return (
     <>
-      <Header />
+      <Headerhop />
       <div className="home">
         {posts.length ? (
           <Posts posts={posts} />

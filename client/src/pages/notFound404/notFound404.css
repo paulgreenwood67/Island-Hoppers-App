@@ -12,24 +12,60 @@
 
 .chill{
     
-    
- 
     display: flex;
-    
     justify-content: center;
     color: grey;
-    font-size: 15px;
-
 }
 
-@media screen and (max-width: 480px) {
-    .notFound {
-        font-size: 20px;
-        margin-left: 0px;
-    }
+.chill p{
+    font-size: 15px;  
+}
 
-    .chill {
+
+@media screen and (max-width: 635px) {
+    .notFound {
         font-size: 10px;
         margin-left: 0px;
     }
+    .chill p{
+        font-size: 12px;  
+    
+}    
+   
+}
+
+@media screen and (max-width: 459px) {
+    .notFound {
+        font-size: 8px;
+        margin-left: 0px;
+    }
+    .chill p{
+        font-size: 10px;  
+    
+}    
+   
+}
+
+@media screen and (max-width: 378px) {
+    .notFound {
+        font-size: 6px;
+        margin-left: 0px;
+    }
+    .chill p{
+        font-size: 8px;  
+    
+}    
+   
+}
+
+@media screen and (max-width: 306px) {
+    .notFound {
+        font-size: 6px;
+        margin-left: 0px;
+    }
+    .chill p{
+        display:none 
+    
+}    
+   
 }

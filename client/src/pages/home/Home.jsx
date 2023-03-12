@@ -55,7 +55,7 @@ export default function Home() {
             <div className="columns">
             <div className="homePostColumns">
           <h2>How to use</h2>
-          <p>To create a hop on Island Hoppers, sign in and select 'Write'. If you don't have an account, create one first. Don't forget to select an island from the variety of Greek islands available and publish your hop. It'll appear as a brief summary on the Hops page. You can view, edit or delete your post anytime. Note that Island Hoppers' admin can also edit or delete any post. Join the community and start sharing your island experiences today!</p>
+          <p>To create a hop on Island Hoppers, sign in by selecting 'Write'. If you don't have an account, create one first. Don't forget to select an island from the variety of Greek islands available and publish your hop. It'll appear as a brief summary on the Hops page. You can view, edit or delete your post anytime. Note that Island Hoppers' admin can also edit or delete any post. Join the community and start sharing your island experiences today!</p>
 
         </div>
         <div className="homePostColumns">

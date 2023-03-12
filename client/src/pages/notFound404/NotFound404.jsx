@@ -9,7 +9,7 @@ export default function NotFound404() {
       <h1>404 - Sorry, that page cannot be found.</h1>
     </div>
     <div className="chill">
-      <p>( We suggest find a beach, crack open a Methos and have a chill instead! )</p>
+      <p>( We suggest finding a beach, cracking open a Methos and chilling instead! )</p>
     </div>
     </div>
   );

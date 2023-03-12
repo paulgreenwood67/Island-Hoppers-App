@@ -54,6 +54,8 @@
 .loginInput:focus {
   outline: none;
 }
+
+
 .loginBtn {
   padding: 8px;
   margin-top: 30px;
@@ -69,8 +71,14 @@
   cursor: not-allowed;
 }
 .loginRegisterBtn {
+  margin: 0 0 20px 30px;
+  padding: 11px;
+  font-size: 17px;
   background-color:  rgb(159, 200, 99);
   color:white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .linkBtns{
@@ -86,8 +94,6 @@
     text-decoration: none;
   }
   
-
-
 
   @media screen and (max-width: 330px) {
     .loginWrapper  {

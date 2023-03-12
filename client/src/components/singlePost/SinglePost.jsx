@@ -107,7 +107,7 @@ const PF = 'https://island-hoppers.herokuapp.com/images/';
         <div className="singlePostAuthorInfo">
           <span className="singlePostAuthorName">
             Author:
-            <Link className="link" to={`/?username=${singlePost.username}`}>
+            <Link className="link" to={`/blog?username=${singlePost.username}`}>
               <b> {singlePost.username}</b>
             </Link>
           </span>

@@ -39,7 +39,7 @@ app.use("/images", express.static(path.join(__dirname, "/images")));
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, "images");
+    cb(null, "https://island-hoppers.herokuapp.com/images/");
   },
   filename: (req, file, cb) => {
     cb(null, req.body.name);

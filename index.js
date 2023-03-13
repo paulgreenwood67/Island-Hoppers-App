@@ -35,7 +35,7 @@ mongoose
 
 app.use(express.json());
 
-app.use("https://island-hoppers.herokuapp.com/images/", express.static(path.join(__dirname, "https://island-hoppers.herokuapp.com/images/")));
+app.use("/images", express.static(path.join(__dirname, "/images")));
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
